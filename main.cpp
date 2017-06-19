@@ -38,7 +38,7 @@ int main() {
     southWestDiv = getSales("South West");
     southEastDiv = getSales("South East");
     
-    findHighest;
+    findHighest();
 
     return 0;
 }
