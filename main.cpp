@@ -6,6 +6,8 @@ using std::cin;
 using std::string;
 
 string divName;
+double northDiv, southDiv, eastDiv, westDiv, northWestDiv, northEastDiv,
+            southWestDiv, southEastDiv;
 
 double getSales(string divName) {
     double sales;
@@ -25,9 +27,6 @@ double getSales(string divName) {
 }
 
 int main() {
-    double northDiv, southDiv, eastDiv, westDiv, northWestDiv, northEastDiv,
-            southWestDiv, southEastDiv;
-
 
     northDiv = getSales("North");
     southDiv = getSales("South");
