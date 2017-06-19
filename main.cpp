@@ -2,13 +2,12 @@
 #include <iomanip>
 using std::cout;
 using std::endl;
-using std::string;
 
-string divName;
+std::string divName;
 double northDiv, southDiv, eastDiv, westDiv, northWestDiv, northEastDiv,
             southWestDiv, southEastDiv;
 
-double getSales(string divName) {
+double getSales(std::string divName) {
     double sales;
     cout << "Enter " << divName << " quarterly sales:" << endl;
     std::cin >> sales;
