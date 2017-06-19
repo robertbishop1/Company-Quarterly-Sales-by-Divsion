@@ -28,7 +28,7 @@ double getSales(string divName) {
 
 int main() {
     double northDiv, southDiv, eastDiv, westDiv, northWestDiv, northEastDiv,
-            southWestDvi, southEastDiv;
+            southWestDiv, southEastDiv;
 
 
     northDiv = getSales("North");
@@ -37,7 +37,7 @@ int main() {
     westDiv = getSales("West");
     northWestDiv = getSales("North West");
     northEastDiv = getSales("North East");
-    southWestDvi = getSales("South West");
+    southWestDiv = getSales("South West");
     southEastDiv = getSales("South East");
     
 
