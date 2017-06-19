@@ -2,7 +2,6 @@
 #include <iomanip>
 using std::cout;
 using std::endl;
-using std::cin;
 using std::string;
 
 string divName;
@@ -12,12 +11,12 @@ double northDiv, southDiv, eastDiv, westDiv, northWestDiv, northEastDiv,
 double getSales(string divName) {
     double sales;
     cout << "Enter " << divName << " quarterly sales:" << endl;
-    cin >> sales;
+    std::cin >> sales;
 
     while(sales < 0){
         cout << "Error number must be 0 or larger.\n";
         cout << "Enter " << divName << " quarterly sales:" << endl;
-        cin >> sales;
+        std::cin >> sales;
     }
 
     while (sales >= 0){
