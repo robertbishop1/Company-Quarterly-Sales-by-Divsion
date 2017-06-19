@@ -26,6 +26,11 @@ double getSales(string divName) {
     return 0;
 }
 
+void findHighest(){
+    if(northDiv > southDiv && northDiv > eastDiv && northDiv > westDiv)
+        cout << "North Division had the greatest total sales: $" << northDiv << endl;
+};
+
 int main() {
 
     northDiv = getSales("North");
@@ -41,9 +46,3 @@ int main() {
 
     return 0;
 }
-
-void findHighest(){
-    if(northDiv > southDiv && northDiv > eastDiv && northDiv > westDiv)
-        cout << "North Division had the greatest total sales: $" << northDiv << endl;
-    return 0;
-};
