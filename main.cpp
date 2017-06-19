@@ -4,10 +4,11 @@ using std::cout;
 using std::endl;
 using std::cin;
 
+string divName;
 
-double getSales() {
+double getSales(string = divName) {
     double sales;
-    
+    cout << "Enter " << divName << " quarterly sales:" << endl;
     cin >> sales;
 
     while(sales < 0){
@@ -27,14 +28,11 @@ int main() {
     double northDiv, southDiv, eastDiv, westDiv, northWestDiv, northEastDiv,
             southWestDvi, southEastDiv;
 
-    cout << "Enter North's quarterly sales:";
-    northDiv = getSales();
-    cout << "Enter South's quarterly sales:";
-    southDiv = getSales();
-    cout << "Enter East's quarterly sales:";
-    eastDiv = getSales();
-    cout << "Enter West's quarterly sales:";
-    westDiv = getSales();
+
+    northDiv = getSales("North");
+    southDiv = getSales("South");
+    eastDiv = getSales("East");
+    westDiv = getSales("West");
 
     return 0;
 }
