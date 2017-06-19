@@ -38,8 +38,13 @@ int main() {
     southWestDiv = getSales("South West");
     southEastDiv = getSales("South East");
     
+    findHighest;
 
     return 0;
 }
 
-void findHighest();
+void findHighest(){
+    if(northDiv > southDiv && northDiv > eastDiv && northDiv > westDiv)
+        cout << "North Division had the greatest total sales: $" << northDiv << endl;
+    return 0;
+};
