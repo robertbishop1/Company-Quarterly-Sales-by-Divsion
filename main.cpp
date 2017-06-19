@@ -35,6 +35,11 @@ int main() {
     southDiv = getSales("South");
     eastDiv = getSales("East");
     westDiv = getSales("West");
+    northWestDiv = getSales("North West");
+    northEastDiv = getSales("North East");
+    southWestDvi = getSales("South West");
+    southEastDiv = getSales("South East");
+    
 
     return 0;
 }
