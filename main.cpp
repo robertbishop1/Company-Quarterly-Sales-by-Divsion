@@ -7,7 +7,7 @@ using std::string;
 
 string divName;
 
-double getSales(string = divName) {
+double getSales(string divName) {
     double sales;
     cout << "Enter " << divName << " quarterly sales:" << endl;
     cin >> sales;
