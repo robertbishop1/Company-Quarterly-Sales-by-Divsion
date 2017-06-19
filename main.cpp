@@ -21,6 +21,7 @@ double getSales(string divName) {
     while (sales >= 0){
         return sales;
     }
+    return 0
 }
 
 int main() {
