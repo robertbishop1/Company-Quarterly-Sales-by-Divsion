@@ -13,7 +13,7 @@ double getSales(string divName) {
     cin >> sales;
 
     while(sales < 0){
-        cout << "Error number must be 0 or larger.";
+        cout << "Error number must be 0 or larger.\n";
         cout << "Enter " << divName << " quarterly sales:" << endl;
         cin >> sales;
     }
